@@ -1,6 +1,7 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
 
+
 * {
     padding: 0;
     margin: 0;
@@ -119,7 +120,7 @@ header .top-nav .search button {
     right: 0;
     outline: none;
     border: none;
-    width: 60px;
+    width: 70px;
     background-color: var(--main-color);
     height: 100%;
     font-size: 14px;
@@ -129,25 +130,28 @@ header .top-nav .search button {
 }
 
 header .top-nav .search button:hover {
-    background-color: #e0a800;
+    background-color: #00e031;
 }
 
 /* Cart */
 header .top-nav .cart_header {
-    display: flex;
+  /*   display: flex;
     gap: 6px;
     align-items: center;
-    margin-left: 8px;
+    margin-left: 8px; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 header .top-nav .cart_header i {
     color: var(--dark-color);
-    font-size: 16px;
+    font-size: 25px;
     border: 1px solid var(--border-color);
-    width: 36px;
-    height: 36px;
+    width: 50px;
+    height: 50px;
     text-align: center;
-    line-height: 36px;
+    line-height: 50px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.3s ease;
@@ -165,12 +169,12 @@ header .top-nav .cart_header .icon_cart {
 header .top-nav .cart_header .cart-count {
     position: absolute;
     background: var(--main-color);
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     text-align: center;
-    line-height: 16px;
-    font-size: 10px;
+    line-height: 20px;
+    font-size: 13px;
     top: -4px;
     right: -4px;
     color: var(--dark-color);
@@ -178,8 +182,8 @@ header .top-nav .cart_header .cart-count {
 }
 
 header .top-nav .cart_header .tottal_price p {
-    margin-bottom: 4px;
-    font-size: 12px;
+    margin-bottom: 8px;
+    font-size: 14px;
 }
 
 header .top-nav .cart_header .tottal_price .price_cart_Head {
@@ -298,17 +302,17 @@ header .links ul .btn_close_menu {
     }
 
     header .top-nav .cart_header i {
-        width: 32px;
-        height: 32px;
-        line-height: 32px;
-        font-size: 14px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 50px;
     }
 
     header .top-nav .cart_header .cart-count {
-        width: 14px;
-        height: 14px;
+        width: 18px;
+        height: 18px;
         line-height: 14px;
-        font-size: 9px;
+        font-size: 15px;
         top: -3px;
         right: -3px;
     }
@@ -374,17 +378,17 @@ header .links ul .btn_close_menu {
     }
 
     header .top-nav .cart_header i {
-        width: 28px;
-        height: 28px;
-        line-height: 28px;
-        font-size: 13px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 25px;
     }
 
     header .top-nav .cart_header .cart-count {
-        width: 12px;
-        height: 12px;
-        line-height: 12px;
-        font-size: 8px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
         top: -2px;
         right: -2px;
     }
@@ -505,17 +509,17 @@ header .links ul .btn_close_menu {
     }
 
     header .top-nav .cart_header i {
-        width: 24px;
-        height: 24px;
-        line-height: 24px;
-        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
     }
 
     header .top-nav .cart_header .cart-count {
-        width: 10px;
-        height: 10px;
-        line-height: 10px;
-        font-size: 7px;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        font-size: 12px;
         top: -2px;
         right: -2px;
     }
@@ -556,6 +560,8 @@ header .links ul .btn_close_menu {
     }
 }
 /* End Header */
+/*------*/
+
 /*------*/
 
 
